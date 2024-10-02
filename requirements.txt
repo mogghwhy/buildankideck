@@ -24,6 +24,9 @@ protobuf==5.28.2
 psutil==6.0.0
 PyQt6==6.7.1
 PyQt6-Qt6==6.7.3
+PyQt6-WebEngine==6.7.0
+PyQt6-WebEngine-Qt6==6.7.3
+PyQt6-WebEngineSubwheel-Qt6==6.7.3
 PyQt6_sip==13.8.0
 PySocks==1.7.1
 referencing==0.35.1
