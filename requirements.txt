@@ -23,7 +23,6 @@ pip-system-certs==4.0
 protobuf==5.28.2
 psutil==6.0.0
 PySocks==1.7.1
-pywin32==306
 referencing==0.35.1
 requests==2.32.3
 rpds-py==0.20.0
