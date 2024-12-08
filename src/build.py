@@ -3,8 +3,14 @@ import configparser
 from pathlib import Path
 
 x = [f.name for f in os.scandir("../../../") if f.is_file()]
-
 print(x)
+
+x = [f.name for f in os.scandir("../../") if f.is_file()]
+print(x)
+
+x = [f.name for f in os.scandir("../") if f.is_file()]
+print(x)
+
 
 """
 config = configparser.ConfigParser()
