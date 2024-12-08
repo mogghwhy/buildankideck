@@ -1,10 +1,10 @@
+import os
 import configparser
 from pathlib import Path
 
-print(Path("../../../../config.ini").exists())
-print(Path("../../../config.ini").exists())
-print(Path("../../config.ini").exists())
-print(Path("../config.ini").exists())
+x = [f.name for f in os.scandir("../../../") if f.is_file()]
+
+print(x)
 
 """
 config = configparser.ConfigParser()
