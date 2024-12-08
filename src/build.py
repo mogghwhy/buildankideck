@@ -5,17 +5,20 @@ from pathlib import Path
 cwd = os.getcwd()
 print(cwd)
 
-x = [f.name for f in os.scandir("../../../../") if f.is_file()]
+x = [f.name for f in os.scandir(".")]
+print(x)
+
+x = [f.name for f in os.scandir("../../../../")]
 print(x)
 
 
-x = [f.name for f in os.scandir("../../../") if f.is_file()]
+x = [f.name for f in os.scandir("../../../")]
 print(x)
 
-x = [f.name for f in os.scandir("../../") if f.is_file()]
+x = [f.name for f in os.scandir("../../")]
 print(x)
 
-x = [f.name for f in os.scandir("../") if f.is_file()]
+x = [f.name for f in os.scandir("../")]
 print(x)
 
 
