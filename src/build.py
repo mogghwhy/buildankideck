@@ -2,6 +2,13 @@ import os
 import configparser
 from pathlib import Path
 
+cwd = os.getcwd()
+print(cwd)
+
+x = [f.name for f in os.scandir("../../../../") if f.is_file()]
+print(x)
+
+
 x = [f.name for f in os.scandir("../../../") if f.is_file()]
 print(x)
 
